@@ -1,0 +1,107 @@
+#majorText{
+    animation: appearDisappear;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+    transition: .5s;
+
+}
+
+@keyframes appearDisappear{
+    0%{
+        opacity: 1;
+    }
+    5% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 1;
+    }
+    15% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    65% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.App {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    transition: background-color 0.5s;
+}
+.white-bg {
+    background-color: #ffffff;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .object {
+    width: 50px;
+    height: 50px;
+    background-color: #ff5722;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 16px;
+} */
